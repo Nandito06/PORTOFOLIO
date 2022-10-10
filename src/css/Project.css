@@ -1,0 +1,141 @@
+#PROJECT{
+height: 100vh;
+background-color:#f0f2f5 ;
+transition: .4s;
+
+}
+#dark #PROJECT{
+  background-color: #3b3b3b;
+  transition: .4s;
+
+}
+.Project{
+    padding-left: 70px;
+}
+
+.naugthy-project{
+    bottom:19px;
+    left: -50px;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #8E7DED;
+ transform: rotate(-20deg);
+ -ms-transform: rotate(-20deg);
+}
+.lineproject{
+    width: 350px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    height: 2px;
+  background-color: black;
+}
+#dark .lineproject{
+  background-color: #f0f2f5;
+}
+
+.link-page{
+  position: relative;
+left: -200px;
+}
+.link-page-todo{
+  position: relative;
+left: -200px;
+}
+.link-page-terra{
+  position: relative;
+left: -200px;
+}
+.todo{
+  margin-top: 70px;
+}
+.terra{
+   
+}
+.imgprojek{
+  width: 350px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.rinci-project{
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+    color: rgba(79, 79, 79, 0.762);
+}
+#dark .rinci-project{
+  color: #f0f2f5bb;
+}
+.link{
+  margin-left: -80px;
+}
+
+
+@media  screen and (max-width:768px){
+  #PROJECT{
+    height: 210vh;
+    background-color:#f0f2f5 ;
+    }
+
+
+   
+
+
+
+
+
+  .Project{
+    padding-left: 40px;
+}
+
+.naugthy-project{
+    bottom:-1px;
+    left: -40px;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #8E7DED;
+ transform: rotate(-20deg);
+ -ms-transform: rotate(-20deg);
+}
+.lineproject{
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 2px;
+  background-color: black;
+}
+.link-page{
+  position: relative;
+  left: -40px;
+  top: -14px;
+}
+.rinci-project{
+  font-size: 12px;
+  font-family: 'Nunito', sans-serif;
+    color: rgba(79, 79, 79, 0.762);
+}
+
+.todo{
+  margin-top: 10px;
+}
+.link-page-todo{
+  position: relative;
+  left: -40px;
+  top: -14px;
+}
+.link-page-terra{
+  position: relative;
+left: -40px;
+top: -14px;
+}
+.imgprojek{
+  width: 200px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.kiripanah{
+  left: -38px;
+  position: relative;
+}
+}

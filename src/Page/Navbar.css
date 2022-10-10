@@ -1,0 +1,78 @@
+.navbar-nav{
+    padding-left: 330px;
+    position: relative;
+    background-color: transparent;
+}
+
+.logo{
+    width: 70px;
+    margin-left: 70px;
+
+    background-color: transparent;
+}
+.NAVBAR{
+   
+    background-color: #f0f2f5;
+    transition: .4s;
+}
+#dark .NAVBAR{
+    background-color: #3b3b3b;
+    transition: .4s;
+}
+ #dark .nav-link {
+    color: #f0f2f5;
+}
+.nav-bar{
+ 
+}
+.en{
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon{
+    font-size: 10px;
+}
+#dark .navbar-toggler-icon{
+    color: #f0f2f5;
+    transition: cubic-bezier(0.68, -0.55, 0.265. 1.55 );
+}
+.navbar-toggler{
+   position: relative;
+   left: -10px;
+}
+#dark .navbar-toggler{
+    color: #f0f2f5;
+}
+
+@media screen and (max-width:425px){
+.bar{
+position: relative;
+
+left:-230px;
+}
+.navbar-toggler-icon{
+    font-size: 10px;
+    color: #f0f2f5 !important;
+}
+#dark .navbar-toggler-icon{
+    color: #f0f2f5 !important;
+
+}
+.navbar-toggler{
+   position: relative;
+   left: -10px;
+   color: #f0f2f5 !important;
+}
+#dark .navbar-toggler{
+    color: #f0f2f5;
+}
+.logo{
+    width: 50px;
+    margin-left: -5px;
+
+    background-color: transparent;
+}
+
+}
+

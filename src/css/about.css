@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap');
+
+.About{
+    height: 120vh;
+    background-color: #f0f2f5;
+    transition: .4s;
+}
+#dark .About{
+    background-color: #3b3b3b;
+    transition: .4s;
+}
+.col1About{
+margin-left: 80px;
+margin-top: 20px;
+}
+.naugty-about{
+    bottom:60px;
+    left: -25px;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #8E7DED;
+ transform: rotate(-20deg);
+ -ms-transform: rotate(-20deg);
+}
+
+.aboutChil{
+    margin-top: 30px;
+}
+.text-about{
+    font-weight: 700;
+    font-size: 50px;
+    font-family:'Inter+Tight' sans-serif;
+}
+#dark .text-about{
+    color: #f0f2f5;
+}
+.aboutteks{
+    color: rgba(79, 79, 79, 0.762);
+   
+}
+#dark .aboutteks{
+    color: #f0f2f5c2;
+}
+.linepage1{
+    width: 450px;
+    height: 2px;
+    background-color: black;
+}
+#dark .linepage1{
+    background-color: #f0f2f5;
+}
+.tanggal{
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.page1{
+position: relative;
+top: 80px;
+margin-left: 100px;
+margin-bottom: 30px;
+}
+#dark .page1{
+    color: #f0f2f5;
+}
+.linkin{
+    margin-top: 20px;
+   
+}
+.fa-circle-arrow-up{
+     transform: rotate(50deg);
+    margin-left: 350px;
+    font-size: 40px;
+    color: #8E7DED;
+}
+
+.lokasi{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    font-size: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+.contak{
+    color: #3b3b3b;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+
+#dark .contak{
+    color: #f0f2f5;
+}
+.fa-envelope{
+      color: #3b3b3b;
+      text-decoration: none;
+}
+#dark .fa-envelope{
+    color: #f0f2f5;
+}
+#dark .lokasi{
+color:  #f0f2f5;
+}
+
+@media   screen and (max-width:768px){
+   
+    .About{
+        height: 190vh;
+    }
+    .col1About{
+        margin-left: 10px;
+        margin-top: 20px;
+        }
+
+    .linepage1{
+        width: 270px;
+        height: 2px;
+        background-color: black;
+    }
+    .sd4{
+        font-size: 23px;
+    }
+    .kolom2{
+        position: relative;
+        padding-top: -10px;
+        padding-bottom: 50px;
+        position: relative;
+        top: -30px;
+    }
+    .tanggal{
+        margin-right: 50px;
+        margin-top: 15px;
+        font-size: 10px
+    }
+    .page1{
+    position: relative;
+    top: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    }
+    .link{
+        margin-top: 20px;
+    }
+    .aboutteks{
+        color: rgba(79, 79, 79, 0.762);
+        font-size: 12px;
+    }
+    .fa-circle-arrow-up{
+       
+        margin-left: 150px;
+        font-size: 20px;
+        color: #8E7DED;
+        margin-top: 0px;
+        
+       
+    }
+    
+    .naugty-about{
+        bottom:25px;
+        left: -25px;
+        position: relative;
+        font-family: 'Nunito', sans-serif;
+        font-weight:900;
+        color: #8E7DED;
+     transform: rotate(-20deg);
+     -ms-transform: rotate(-20deg);
+    }
+    .text-about{
+        font-weight: 800;
+        font-size: 40px;
+        font-family:'Inter+Tight' sans-serif;
+    }
+    .lokasi{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+}
+.explore{
+    font-size: 10px;
+}
+}

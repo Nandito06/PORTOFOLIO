@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+.SKILL{
+    background-color: #f0f2f5;
+    transition: .4s;   
+    height: 120vh;
+}
+#dark .SKILL{
+    background-color: #3b3b3b;
+    transition: .4s;
+
+}
+.naugthy-skill{
+    bottom:60px;
+    left: -25px;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #8E7DED;
+ transform: rotate(-20deg);
+ -ms-transform: rotate(-20deg);
+ background-color: transparent;
+}
+.page-skill1{
+    padding-left: 70px;
+}
+.page-skil{
+    margin-top: 70px;
+}
+.Title-skill{
+    margin-top: 40px;
+   
+}
+.Skill-intro{
+    font-size: 50px;
+    font-weight: 700;
+}
+#dark .Skill-intro{
+    color: #f0f2f5;
+}
+.skill-title{
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.skill{
+    margin-top: 30px;
+    font-size: 50px;
+    margin-left: 0px;
+    flex-wrap: wrap;
+    
+}
+#dark{
+    color: #f0f2f5;
+}
+
+.rincian{
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    margin-left: 80px;
+    color: rgba(79, 79, 79, 0.762);
+}
+#dark .rincian{
+    color: #f0f2f5ae;
+}
+
+.intro{
+    color: rgba(79, 79, 79, 0.762);
+    font-family: 'Nunito', sans-serif;
+    
+}
+#dark .intro{
+    color: #f0f2f5ae;
+}
+.nilai{
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    color: rgba(79, 79, 79, 0.762);
+}
+#dark .nilai{
+    color: #f0f2f5ae;
+}
+.img-about{
+    width: 460px;
+}
+
+.padding{
+    margin-right: 30px;
+    flex-wrap: wrap;
+}
+
+#dark .myskil{
+    color: #f0f2f5;
+}
+@media screen and (max-width:768px){
+
+    .SKILL{
+        background-color: #f0f2f5;
+        height: 220vh;
+    }
+   
+
+.atribut{
+    margin-left: 70px;
+}
+.rincian{
+    font-size: 10px;
+    margin-left: 150px;
+}
+.myskil{
+    padding-left: 40px;
+}
+
+
+.naugthy-skill{
+    bottom:15px;
+    left: -5px;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #8E7DED;
+ transform: rotate(-20deg);
+ -ms-transform: rotate(-20deg);
+ background-color: transparent;
+}
+.page-skill1{
+    padding-left: 10px;
+    padding-top: 0px;
+}
+.page-skil{
+    margin-top: 70px;
+    flex-wrap: wrap;
+    margin-left: -40px;
+}
+.Title-skill{
+    margin-top: 40px;
+   
+}
+.Skill-intro{
+    font-size: 40px;
+    font-weight: 700;
+}
+.skill-title{
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.skill{
+    font-size: 10px;
+    flex-wrap: wrap;
+   position: relative;
+   top: 50px;
+   margin-left: 0px;
+}
+
+.padding{
+
+    font-size: 30px;
+}
+.intro{
+    color: rgba(79, 79, 79, 0.762);
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+}
+.nilai{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.img-about{
+    width: 460px;
+}
+.experince{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    position: relative;
+    top: -20px;
+    
+}
+b{
+    font-size: 10px;
+}
+}
