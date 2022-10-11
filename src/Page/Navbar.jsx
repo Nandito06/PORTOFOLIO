@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { AppContext } from '../Contex/appContext';
 import ReactSwitch from 'react-switch';
 
-function Navbar(props) {
+function Navbar() {
   
   const contex = React.useContext(AppContext)
     return (

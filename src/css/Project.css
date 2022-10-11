@@ -79,7 +79,9 @@ left: -200px;
 
 
    
-
+.title-projk{
+  font-size: 18px;
+}
 
 
 
@@ -97,6 +99,7 @@ left: -200px;
     color: #8E7DED;
  transform: rotate(-20deg);
  -ms-transform: rotate(-20deg);
+ font-size: 10px;
 }
 .lineproject{
     width: 150px;

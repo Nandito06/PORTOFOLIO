@@ -110,6 +110,7 @@
 }
 .myskil{
     padding-left: 40px;
+    font-size: 18px;
 }
 
 
@@ -123,6 +124,7 @@
  transform: rotate(-20deg);
  -ms-transform: rotate(-20deg);
  background-color: transparent;
+ font-size: 10px;
 }
 .page-skill1{
     padding-left: 10px;
@@ -138,7 +140,7 @@
    
 }
 .Skill-intro{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
 }
 .skill-title{
@@ -162,6 +164,8 @@
     color: rgba(79, 79, 79, 0.762);
     font-family: 'Nunito', sans-serif;
     font-size: 10px;
+    position: relative;
+    left: -10px;
 }
 .nilai{
     font-size: 10px;
@@ -179,5 +183,8 @@
 }
 b{
     font-size: 10px;
+}
+.smpn{
+    font-size: 18px;
 }
 }

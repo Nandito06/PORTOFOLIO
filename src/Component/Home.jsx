@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Home() {
     const contex = React.useContext(AppContext)
     return (
-        <div className='container-fluid HOME ' id='Home'>
+        <div className='container-fluid HOME   animate__animated animate__fadeInUp' id='Home'>
 
 
             <div className='row ext-centetr'>
@@ -53,7 +53,7 @@ function Home() {
                     </div>
                     <div className='lingkaran'>
                         
-                    <img src={poto} alt="" className='foto animate__animated  animate__flipInX' />
+                    <img src={poto} alt="" className='foto' />
                     </div>
                     <br />
                     <div className='checkme'>
@@ -64,21 +64,21 @@ function Home() {
                         <div className='icon facebook'>
                             <a href="https://www.instagram.com/nandito_ndo/" target='_blank'>
                             <div className='tooltip ig'>Instagram</div>
-                            <span><i class="fa-brands fa-instagram " ></i></span>
+                            <span><i class=" iconl fa-brands fa-instagram " ></i></span>
                             </a>
                         </div>
            
                        <div className='icon github'>
                         <a href="https://github.com/Nandito06" target='_blank'>
                        <div className='tooltip git'>GitHub</div>
-                        <span>  <i class="fa-brands fa-github"></i></span>
+                        <span>  <i class=" iconl fa-brands fa-github"></i></span>
                         </a>
                         </div>
                     
                         <div className='icon Linkin'>
                             <a href="https://www.linkedin.com/in/nandito-poto-098a12252/" target='_blank'>
                        <div className='tooltip ln'>LinkedIn</div>
-                        <span>  <i class="fa-brands fa-linkedin"></i></span>
+                        <span>  <i class=" iconl fa-brands fa-linkedin"></i></span>
                         </a>
                         </div>
                     </div>

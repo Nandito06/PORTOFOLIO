@@ -5,13 +5,15 @@
 }
 
 .logo{
+    position: relative;
+ top: 10px;
     width: 70px;
     margin-left: 70px;
 
     background-color: transparent;
 }
 .NAVBAR{
-   
+  
     background-color: #f0f2f5;
     transition: .4s;
 }
@@ -22,8 +24,8 @@
  #dark .nav-link {
     color: #f0f2f5;
 }
-.nav-bar{
- 
+.nav-masthead{
+ padding-top: 36px;
 }
 .en{
     border: none;

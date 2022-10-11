@@ -21,7 +21,7 @@ function Project() {
                     <div className='lineproject'></div>
                     <div className='nameProject'>
                     <div className='projekku d-flex'>
-                        <h2 >BMI-Calculator</h2>
+                        <h2 className='title-projk'>BMI-Calculator</h2>
                         <a className='link' href="https://nando-bmi.netlify.app" target='_blank'>
                    <i class="fa-sharp fa-solid fa-circle-arrow-up link-page"></i>
                    </a>
@@ -38,7 +38,7 @@ function Project() {
                     <div className='lineproject'></div>
                     <div className='nameProject'>
                     <div className='projekku d-flex'>
-                        <h2 >ToDo-List</h2>
+                        <h2 className='title-projk'>ToDo-List</h2>
                         <a className='link' href="https://todo-list-nando.netlify.app" target='_blank'>
                    <i class="fa-sharp fa-solid fa-circle-arrow-up link-page-todo"></i></a>
                    </div>
@@ -53,7 +53,7 @@ function Project() {
                     <div className='lineproject'></div>
                     <div className='nameProject'>
                     <div className='projekku d-flex'>
-                        <h2 >Terra-Fresh</h2>
+                        <h2 className='title-projk'>Terra-Fresh</h2>
                         <a className='link' href="https://terra-fresh-react.netlify.app/" target='_blank'>
                    <i class="fa-sharp fa-solid fa-circle-arrow-up link-page-terra"></i></a>
                    </div>
