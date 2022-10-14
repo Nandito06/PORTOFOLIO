@@ -1,5 +1,5 @@
 #PROJECT{
-height: 100vh;
+height: 110vh;
 background-color:#f0f2f5 ;
 transition: .4s;
 
@@ -73,7 +73,7 @@ left: -200px;
 
 @media  screen and (max-width:768px){
   #PROJECT{
-    height: 210vh;
+    height: 180vh;
     background-color:#f0f2f5 ;
     }
 

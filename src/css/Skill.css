@@ -80,6 +80,7 @@
 }
 #dark .nilai{
     color: #f0f2f5ae;
+  
 }
 .img-about{
     width: 460px;
@@ -88,6 +89,9 @@
 .padding{
     margin-right: 30px;
     flex-wrap: wrap;
+    text-shadow: 0 0 9px #fff;
+   
+    
 }
 
 #dark .myskil{
@@ -97,7 +101,7 @@
 
     .SKILL{
         background-color: #f0f2f5;
-        height: 220vh;
+        height: 190vh;
     }
    
 

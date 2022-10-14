@@ -15,8 +15,8 @@
 justify-content: flex-end;
 display: flex;
 position: relative;
-top: -60px;
-left: -40px;
+top: 50px;
+left: 400px;
 }
 /* css animation */
 .typing{
@@ -64,6 +64,8 @@ animation:  typing 2s steps(20) infinite alternate,blink 0.7s infinite;
  }
  #dark .icon span{
     box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.342);
+     text-shadow: 0 0 15px #ffe693;
+     text-shadow: 0 0 10px #ffe89d;
  }
  .icon span i{
 line-height: 60px;
@@ -347,7 +349,7 @@ transform: translateX(-130px) skewX(-15deg);
 
 /* col2 */
 .foto{
-  top: 10px;
+  top: 40px;
     width: 600px;
     left: -102px;
     background-color: transparent;
@@ -446,6 +448,14 @@ background-color: #FCDA69;
 #dark .footer{
     background-color: #3b3b3b;
 }
+
+ul li{
+    list-style: none;
+    font-size: 15px;
+}
+.switch{
+    
+}
 /* responsive home 320px */
 
 @media  screen and (max-width:768px){
@@ -483,15 +493,17 @@ color: #f0f2f5;
 }
 
     .HOME{
+        margin-top: 50px;
         background-color: #f0f2f5;
-        height: 170vh;
+        height: 150vh;
         
         }
         
         .switch{
             justify-content: flex-start;
             display: flex;
-            position: relative;margin-left: 20px;
+            position: relative;
+            top: 20px;
 top: 0px;
 left: 0px;
             }
@@ -608,6 +620,8 @@ left: 0px;
     }
     .switch{
         margin-top: 20px;
+        top: 70px
+
     }
     
     .long-line{

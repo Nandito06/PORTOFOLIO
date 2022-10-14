@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Home() {
     const contex = React.useContext(AppContext)
     return (
-        <div className='container-fluid HOME   animate__animated animate__fadeInUp' id='Home'>
+        <div className='container-fluid HOME   ' id='Home'>
 
 
             <div className='row ext-centetr'>
@@ -15,7 +15,7 @@ function Home() {
                         <p className='naugty-text'>{contex.lang === "en" ? "Hello!" : "Halo!"} </p>
                         <div className=''>
                             <h1 className='textHome'>{contex.lang === "en" ? " I'am" : "Saya"}</h1>
-                            <h1 className='textHome typing'><span>Nandito</span> </h1>
+                            <h1 className='textHome '><span>Nandito</span> </h1>
                         </div>
                     </div>
                     <div className='d-flex chilteks'>
@@ -48,12 +48,12 @@ function Home() {
                         <div className='longline'></div>
                         <div className='shortline'></div>
                         <div className=''>
-                        {contex.lang === "en" ? "Welcome 🖐" : "Selamat Datang 🖐"}   
+                        {contex.lang === "en" ? "👈 Scroll Down " : "👈 Geser Kebawah "}   
                         </div>
                     </div>
                     <div className='lingkaran'>
                         
-                    <img src={poto} alt="" className='foto' />
+                    <img data-aos="fade-up" src={poto} alt="" className='foto' />
                     </div>
                     <br />
                     <div className='checkme'>
@@ -61,21 +61,21 @@ function Home() {
                     </div>
                     <div className='sosmed d-flex'>
 
-                        <div className='icon facebook'>
+                        <div className='icon facebook'data-aos="fade-up">
                             <a href="https://www.instagram.com/nandito_ndo/" target='_blank'>
                             <div className='tooltip ig'>Instagram</div>
                             <span><i class=" iconl fa-brands fa-instagram " ></i></span>
                             </a>
                         </div>
            
-                       <div className='icon github'>
+                       <div className='icon github'data-aos="fade-up">
                         <a href="https://github.com/Nandito06" target='_blank'>
                        <div className='tooltip git'>GitHub</div>
                         <span>  <i class=" iconl fa-brands fa-github"></i></span>
                         </a>
                         </div>
                     
-                        <div className='icon Linkin'>
+                        <div className='icon Linkin'data-aos="fade-up">
                             <a href="https://www.linkedin.com/in/nandito-poto-098a12252/" target='_blank'>
                        <div className='tooltip ln'>LinkedIn</div>
                         <span>  <i class=" iconl fa-brands fa-linkedin"></i></span>
@@ -88,16 +88,7 @@ function Home() {
 
 
             </div>
-            <div className='botbar'>
-              
-            <Link to='/'>
-            <i class="fa-solid fa-house"></i>
-            </Link>
-
-            <Link to='/about'>
-              <i class="fa-solid fa-arrow-right"></i>
-              </Link>
-            </div>
+           
 
         </div>
     );

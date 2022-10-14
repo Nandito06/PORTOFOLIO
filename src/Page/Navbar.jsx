@@ -4,16 +4,18 @@ import logo from '../img/logo.png'
 import { Link } from 'react-router-dom';
 import { AppContext } from '../Contex/appContext';
 import ReactSwitch from 'react-switch';
-
+import { HashLink } from 'react-router-hash-link';
+import Tombol from './Tombol';
 function Navbar() {
   
   const contex = React.useContext(AppContext)
     return (
-        <div className='container-fluid NAVBAR' >
+      
+        <div className='container-fluid NAVBAR fixed-top' >
             <nav class="navbar navbar-expand-lg  nav-bar ">
   
  
-   <Link id='Home' to='/'> <img src={logo} alt="" className='navbar-brand logo'/></Link>
+   <HashLink to='#'> <img src={logo} alt="" className='navbar-brand logo'/></HashLink>
 
  
 
@@ -22,11 +24,12 @@ function Navbar() {
     </button> 
     <div class="collapse navbar-collapse bar" id="navbarNavAltMarkup">
       <div class="navbar-nav nav-masthead">   
-        <Link class="nav-link fw-bold py-1" to='/about'>{contex.lang === "en" ? "About" : "Tentang"} </Link>
-        <Link class="nav-link  fw-bold py-1"to='/skill'>{contex.lang === "en" ? "Skill" : "Skil"} </Link>
-        <Link class="nav-link  fw-bold  py-1" to='/project'>{contex.lang === "en" ? "Project" : "Projek"} </Link>
+        <HashLink to='#ABOUT' class="nav-link fw-bold py-1">{contex.lang === "en" ? "About" : "Tentang"} </HashLink >
+        <HashLink to='#Skill' class="nav-link  fw-bold py-1">{contex.lang === "en" ? "Skill" : "Skil"} </HashLink >
+        <HashLink to='#PROJECT' class="nav-link  fw-bold  py-1">{contex.lang === "en" ? "Project" : "Projek"} </HashLink >
+        <HashLink to='#KONTAK' class="nav-link  fw-bold  py-1">{contex.lang === "en" ? "Contact" : "Kontak"} </HashLink >
          <button className='nav-link  py-1 navbar nav-masthead en'onClick={() => contex.onchangebahasa(contex.lang === "en" ? "id" : "en")} >{contex.lang === "en" ? "id" : "en"} </button>
-         
+  
       </div> 
     </div>
     

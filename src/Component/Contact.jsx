@@ -64,8 +64,12 @@ function Contact() {
        
     }
     return (
-        <div>
-            <div class="container animate__animated animate__fadeInDown" onSubmit=  {handleSubmit}>
+        <div id='KONTAK' 
+        data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
+        
+            <div class="container " onSubmit=  {handleSubmit}>
                 <div id="contact">
                     <h3>{contex.lang === "en" ? "CONTACT ME" : "HUBUNGI SAYA"}</h3>
                     <h4>{contex.lang === "en" ? "contact me if you want to give advice or communicate" : "hubungi saya jika Anda ingin memberikan saran atau berkomunikasi"}</h4>
@@ -101,17 +105,7 @@ value={message}
 
 
                 </div>
-                <div className='botbar'>
-                    <Link to='/about'>
-                        <i class="fa-solid fa-arrow-left"></i>
-                    </Link>
-
-                    <Link to='/'>
-                        <i class="fa-solid fa-house"></i>
-                    </Link>
-
-
-                </div>
+                
             </div>
         </div>
     );

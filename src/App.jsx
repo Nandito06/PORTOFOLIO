@@ -31,19 +31,21 @@ function App() {
         }}>
           <div className='App' id={thema}>
 <Navbarmenu/>
-<div className='switch'>
+<div className='container switch fixed-top'>
+<div className=' '>
 <div class="form-check form-switch" onChange={toogleTheme}>
   <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
 </div>
+</div>
 <label htmlFor="" className='label'>{thema === 'light' ?'Light':'dark'}</label>
 </div>
-<Routes>
-  <Route path='/' element={<Home/>}/>
-  <Route path='/about' element={<About/>}/>
-  <Route path='/skill' element={<Skill/>}/>
-  <Route path='/project' element={<Project/>}/>
-  <Route path='/about/contact' element={<Contact/>}/>
-</Routes>
+  <Home/>
+  
+  <About/>
+ <Skill/>
+ <Project/>
+ <Contact/>
+
 {/* <Home/>
 <About/>
 <Skill/>
