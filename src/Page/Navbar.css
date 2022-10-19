@@ -34,6 +34,7 @@
 
 .navbar-toggler-icon{
     font-size: 10px;
+    
 }
 #dark .navbar-toggler-icon{
     color: #f0f2f5;
@@ -47,7 +48,7 @@
     color: #f0f2f5;
 }
 
-@media screen and (max-width:425px){
+@media screen and (max-width:768px){
 .bar{
 position: relative;
 

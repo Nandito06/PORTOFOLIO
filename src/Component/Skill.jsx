@@ -24,7 +24,7 @@ function Skill() {
                        <div className='line'data-aos="fade-up" ></div>
                        <p className='intro'data-aos="fade-up" >{contex.lang === "en" ? "The skills I have come from hobbies and learning" : "Skill yang saya miliki berasal dari hobby dan pembelajaran!"} <br /> {contex.lang === "en" ? "that I got while participating in some activities." : "yang saya dapatkan saat mengikuti beberapa kegiatan."}</p>
                        </div>
-                       <div className='page-skil'>
+                       <div className='page-skil '>
                        <h3  className='myskil'data-aos="fade-up" >Skills:</h3>
                        <div className='skill d-flex '>
                       <div className='atribut  '>

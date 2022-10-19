@@ -8,6 +8,8 @@
 }
 #dark{
     background-color: #3b3b3b;
+
+
         transition: .4s;
 }
 
@@ -167,8 +169,8 @@ transition: cubic-bezier(0.68, -0.55, 0.265. 1.55 );
 
 
 .HOME{
-
-height: 110vh;
+margin-top: 50px;
+margin-bottom: 80px;
 background-color: #f0f2f5;
 transition: .4s;
 }
@@ -348,18 +350,18 @@ transform: translateX(-130px) skewX(-15deg);
 }
 
 /* col2 */
-.foto{
-  top: 40px;
+
+.gambar{
     width: 600px;
-    left: -102px;
+    display: flex;
     background-color: transparent;
-    position: relative;
+   justify-content: center;
     transition: .4s;
 
-    border-radius: 100%;background-color: #f0f2f5;
+    border-radius: 100%;
 }
 #dark .foto{
-   background-color: #3b3b3b;
+
    transition: .4s;
    
 }
@@ -405,7 +407,7 @@ background-color: #FCDA69;
    
     font-size: 40px;
     position: relative;
-    margin-left: 105px;
+    margin-left: 205px;
     margin-bottom: 30px;
 }
 
@@ -458,7 +460,7 @@ ul li{
 }
 /* responsive home 320px */
 
-@media  screen and (max-width:768px){
+@media  screen and (max-width:1024px){
 
 .fa-arrow-left{
     color: #3b3b3b;
@@ -493,9 +495,9 @@ color: #f0f2f5;
 }
 
     .HOME{
-        margin-top: 50px;
+     
         background-color: #f0f2f5;
-        height: 150vh;
+      
         
         }
         
@@ -600,24 +602,17 @@ left: 0px;
     
     /* col2 */
     .foto{
-     
-        width: 260px;
-        left: 15px;
-        background-color: transparent;
-        position: relative;
+  
+       
     }
     
- 
-    .oval{
-        width: 217px;
-    height: 200px;
-    left:48px;
-    bottom: -273px;
-    position: absolute;
+ .gambar{
+    width: 300px;
+    display: flex;
+        justify-content: center;
     
-    border-radius: 100%;
-    background-color: #FCDA69;    
-    }
+ }
+  
     .switch{
         margin-top: 20px;
         top: 70px

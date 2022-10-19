@@ -10,7 +10,7 @@ function Home() {
 
 
             <div className='row ext-centetr'>
-                <div className='col-md-6 kolom1'>
+                <div className='col-md-6 kolom1 '>
                     <div className='teksHome '>
                         <p className='naugty-text'>{contex.lang === "en" ? "Hello!" : "Halo!"} </p>
                         <div className=''>
@@ -46,20 +46,20 @@ function Home() {
                 <div className='col-md-6 '>
                     <div className='scroll'>
                         <div className='longline'></div>
-                        <div className='shortline'></div>
+                        <div className=''></div>
                         <div className=''>
                         {contex.lang === "en" ? "👈 Scroll Down " : "👈 Geser Kebawah "}   
                         </div>
                     </div>
-                    <div className='lingkaran'>
+                    
                         
-                    <img data-aos="fade-up" src={poto} alt="" className='foto' />
-                    </div>
+                    <img className='gambar text-center' data-aos="fade-up" src={poto} alt=""  />
+                   
                     <br />
                     <div className='checkme'>
 
                     </div>
-                    <div className='sosmed d-flex'>
+                    <div className='sosmed text-center d-flex'>
 
                         <div className='icon facebook'data-aos="fade-up">
                             <a href="https://www.instagram.com/nandito_ndo/" target='_blank'>

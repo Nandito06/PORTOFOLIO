@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap');
 
 .About{
-    height: 120vh;
+   
     background-color: #f0f2f5;
     transition: .4s;
     position: relative;
@@ -109,10 +109,10 @@ margin-bottom: 30px;
 color:  #f0f2f5;
 }
 
-@media   screen and (max-width:768px){
+@media   screen and (max-width:1024px){
    
     .About{
-        height: 140vh;
+   
        
     }
     .col1About{

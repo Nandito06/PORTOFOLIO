@@ -25,7 +25,7 @@ function Contact() {
 
     const submitInfo = () => {
 
-     
+
 
         const emailContant = {
             to_name: to_name,
@@ -33,7 +33,7 @@ function Contact() {
             message: message,
         };
 
-        if (to_name.length ===0||from_name.length ===0||message.length ===0) {
+        if (to_name.length === 0 || from_name.length === 0 || message.length === 0) {
             setError(true)
         } else {
 
@@ -41,7 +41,7 @@ function Contact() {
             setTo_name("")
             setFrom_name("")
             setMessage("")
-         
+
             emailjs.send('service_wt5jfu1', 'template_fawdu29', emailContant, '5zjvmkvqI-GrG_5r1')
                 .then((result) => {
                     Swal.fire(
@@ -61,35 +61,35 @@ function Contact() {
     const handleSubmit = (event) => {
 
 
-       
+
     }
     return (
-        <div id='KONTAK' 
-        data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="1000">
-        
-            <div class="container " onSubmit=  {handleSubmit}>
+        <div id='KONTAK'
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000">
+
+            <div class="container " onSubmit={handleSubmit}>
                 <div id="contact">
                     <h3>{contex.lang === "en" ? "CONTACT ME" : "HUBUNGI SAYA"}</h3>
                     <h4>{contex.lang === "en" ? "contact me if you want to give advice or communicate" : "hubungi saya jika Anda ingin memberikan saran atau berkomunikasi"}</h4>
 
                     <input placeholder={contex.lang === "en" ? "Your Name" : "Nama Anda"} type="text" tabindex="1"
-value={to_name}
+                        value={to_name}
                         onChange={(event) => { setTo_name(event.target.value) }}
                         required autofocus />
                     {error && to_name.length <= 0 ?
                         <label className='text-danger'>{contex.lang === "en" ? "Empty Name" : "Nama Kosong"} </label> : ''}
 
                     <input placeholder={contex.lang === "en" ? "Your Email Address/No HP" : "Alamat Email Anda/No HP"} type="email" tabindex="2"
-value={from_name}
+                        value={from_name}
                         onChange={(event) => { setFrom_name(event.target.value) }}
                         required />
                     {error && from_name.length <= 0 ?
                         <label className='text-danger'>{contex.lang === "en" ? "Empty Contact" : "Kontak Kosong"} </label> : ''}
 
                     <textarea placeholder={contex.lang === "en" ? "Type your message here...." : "Tulis Pesan Mu Disini..."} tabindex="3"
-value={message}
+                        value={message}
                         onChange={(event) => { setMessage(event.target.value) }}
                         required ></textarea>
                     {error && message.length <= 0 ?
@@ -105,7 +105,7 @@ value={message}
 
 
                 </div>
-                
+
             </div>
         </div>
     );
