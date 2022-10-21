@@ -132,13 +132,13 @@
  font-size: 10px;
 }
 .page-skill1{
-    padding-left: 10px;
+    padding-left: 0;
     padding-top: 0px;
 }
 .page-skil{
     margin-top: 70px;
     flex-wrap: wrap;
-  
+     
 }
 .Title-skill{
     margin-top: 40px;

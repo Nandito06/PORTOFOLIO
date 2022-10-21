@@ -25,7 +25,7 @@ function Project() {
                    <i class="fa-sharp fa-solid fa-circle-arrow-up link-page"></i>
                    </a>
                    </div>
-                   <p className="rinci-project"data-aos="fade-up">{contex.lang === "en" ? "Make BMI Count" : "Membuat BMI Calculator"} </p>
+                   <p className="rinci-project"data-aos="fade-up">{contex.lang === "en" ? "Make BMI Count Using HTML,CSS,JS" : "Membuat BMI Calculator menggunakan HTML,CSS,JS"} </p>
                    <img src={BMI} alt="" className='imgprojek' /> 
                     </div>
                     </div>
@@ -56,7 +56,7 @@ function Project() {
                         <a className='link' href="https://terra-fresh-react.netlify.app/" target='_blank'data-aos="fade-up">
                    <i class="fa-sharp fa-solid fa-circle-arrow-up link-page-terra"></i></a>
                    </div>
-                   <p className="rinci-project"data-aos="fade-up">{contex.lang === "en" ? "Create a fruit buying and selling website (Group Project)" : "Membuat web jual beli buah (Group Project)"} </p>
+                   <p className="rinci-project"data-aos="fade-up">{contex.lang === "en" ? "Create a fruit buying and selling website (Group Project) using React js" : "Membuat web jual beli buah (Group Project) menggunakan React js"} </p>
                    <img src={Terra} alt="" className='imgprojek'data-aos="fade-up" /> 
                     </div>
                     
