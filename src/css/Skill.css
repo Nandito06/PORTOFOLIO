@@ -3,7 +3,7 @@
 .SKILL{
     background-color: #f0f2f5;
     transition: .4s;   
-   
+   padding-left: 80px;
 }
 #dark .SKILL{
     background-color: #3b3b3b;
@@ -102,7 +102,7 @@
 
     .SKILL{
         background-color: #f0f2f5;
-        
+        padding-left: 10px;
     }
    
 
