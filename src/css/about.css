@@ -7,6 +7,7 @@
     transition: .4s;
     position: relative;
    margin-top: -90px;
+   margin-bottom: 100px;
 }
 #dark .About{
     background-color: #3b3b3b;
@@ -112,7 +113,7 @@ color:  #f0f2f5;
 @media   screen and (max-width:1024px){
    
     .About{
-   
+   margin-bottom: 10px;
        
     }
     .col1About{

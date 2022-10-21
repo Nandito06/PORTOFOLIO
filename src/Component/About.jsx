@@ -37,7 +37,7 @@ Aos.init({});
                         <div data-aos="fade-up"  className='linepage1 text-center'></div>
                         <div className='d-flex sdn4 text-center'>
                            <p data-aos="fade-up"  className='tanggal'>2010-2016</p> 
-                        <h1 data-aos="fade-up"  className='sd4 '>{contex.lang === "en" ? "Public Elementary School" : "SDN"} 4 Maluk</h1>
+                        <h1 data-aos="fade-up"  className='sd4 '>{contex.lang === "en" ? "SDN" : "SDN"} 4 Maluk</h1>
                         </div>
 
                          <div className='linkin d-flex'>
@@ -52,7 +52,7 @@ Aos.init({});
                         <div className='linepage1' data-aos="fade-up" ></div>
                         <div className='d-flex sdn4 text-center '>
                            <p className='tanggal'data-aos="fade-up" >2016-2019</p> 
-                        <h1 className='sd4 'data-aos="fade-up" >{contex.lang === "en" ? "public junior high school" : "SMPN"} 1 Maluk</h1>
+                        <h1 className='sd4 'data-aos="fade-up" >{contex.lang === "en" ? "SMPN" : "SMPN"} 1 Maluk</h1>
                        
                         </div>
 
@@ -67,7 +67,7 @@ Aos.init({});
                         <div className='linepage1'data-aos="fade-up" ></div>
                         <div className='d-flex sdn4 text-center 'data-aos="fade-up" >
                            <p className='tanggal'data-aos="fade-up" >2019-2022</p> 
-                        <h1 className='sd4 '>{contex.lang === "en" ? "public vocational high    Schools 1 Maluk" : "SMKN 1 Maluk"}</h1>
+                        <h1 className='sd4 '>{contex.lang === "en" ? "SMKN 1 Maluk" : "SMKN 1 Maluk"}</h1>
                        
                         </div>
                          <div className='linkin d-flex' data-aos="fade-up" >
