@@ -22,7 +22,7 @@ function Project() {
     ];
     const renderProject=(card,index)=>{
         return(
-            <div className='col-md-4'>
+            <div className='col-md-4'data-aos="fade-up">
             <div className=' todo'key={index}>
                 <div className='lineproject'></div>
                 <div className='nameProject'>
