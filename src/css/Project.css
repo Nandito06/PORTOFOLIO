@@ -33,7 +33,7 @@ transition: .4s;
 #dark .lineproject{
   background-color: #f0f2f5;
 }
-
+/* 
 .link-page{
   position: relative;
 left: -200px;
@@ -58,32 +58,79 @@ left: -200px;
   margin-bottom: 40px;
 }
 
-.rinci-project{
-  font-size: 16px;
-  font-family: 'Nunito', sans-serif;
-    color: rgba(79, 79, 79, 0.762);
+
+
+.link{
+  margin-left: -80px;
+}
+.git{
+  font-size: 40px;
+  margin-left: 30px;
+  color: #8E7DED;
+}
+#dark .git{
+  text-shadow: 0 0 20px #9b8cf0 ;
+}
+.link-page-git{
+  margin-left: -150px;
+}*/
+.todogit{
+  font-size: 35px;
+  margin-left: 30px;
+  color: #8E7DED;
 }
 #dark .rinci-project{
   color: #f0f2f5bb;
 }
-.link{
-  margin-left: -80px;
+#dark .todogit{
+  text-shadow: 0 0 20px #9b8cf0d0 ;
 }
+.rinci-project{
+  font-size: 16px;
+ 
+  font-family: 'Nunito', sans-serif;
+    color: rgba(79, 79, 79, 0.762);
+}
+.linkweb{
+  transform: rotate(50deg);
 
-
+  font-size: 35px;
+  color: #8E7DED;
+}
+.linkprojek{
+  margin-left: 10px;
+}
 @media  screen and (max-width:1024px){
   #PROJECT{
     
     background-color:#f0f2f5 ;
     }
-
-
-   
-.title-projk{
-  font-size: 18px;
-}
-
-
+    .title-projk{
+      margin-right: 30px
+    }
+    .todogit{
+      font-size: 26px;
+      margin-left: 30px;
+      margin-top: -6px;
+      color: #8E7DED;
+    }
+    
+    .linkweb{
+      transform: rotate(50deg);
+    margin-left: 0px;
+      font-size: 26px;
+      color: #8E7DED;
+    }
+    .linkprojek{
+      
+    }
+    .rinci-project{
+      font-size: 12px;
+    
+      margin-right: 40px;
+      font-family: 'Nunito', sans-serif;
+        color: rgb(189, 189, 189);
+    }
 
 
   .Project{
@@ -108,37 +155,5 @@ left: -200px;
     height: 2px;
   background-color: black;
 }
-.link-page{
-  position: relative;
-  left: -40px;
-  top: -14px;
-}
-.rinci-project{
-  font-size: 12px;
-  font-family: 'Nunito', sans-serif;
-    color: rgba(79, 79, 79, 0.762);
-}
 
-.todo{
-  margin-top: 10px;
-}
-.link-page-todo{
-  position: relative;
-  left: -40px;
-  top: -14px;
-}
-.link-page-terra{
-  position: relative;
-left: -40px;
-top: -14px;
-}
-.imgprojek{
-  width: 200px;
-  border-radius: 20px;
-  margin-bottom: 40px;
-}
-.kiripanah{
-  left: -38px;
-  position: relative;
-}
 }

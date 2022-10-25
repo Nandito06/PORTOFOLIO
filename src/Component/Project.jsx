@@ -7,63 +7,63 @@ import { AppContext } from '../Contex/appContext';
 import Terra from '../img/Terra.png'
 function Project() {
     const contex = React.useContext(AppContext)
+
+    const cardProject=[
+        {image:{Todo}, title:'To Do - List',linkWeb:'https://todo-list-nando.netlify.app',linkGit:'https://github.com/Nandito06/To-Do-LIst-Project',rincian:'Creating activity logs using React js'},
+
+        {image:'dw', title:'BMI-Calculator',linkWeb:'https://nando-bmi.netlify.app',linkGit:'https://github.com/Nandito06/Tecnical-Project-2',rincian:'Make BMI Count Using HTML,CSS,JS '},
+
+        {image:'dw', title:'Terra-Fresh',linkWeb:'https://terra-fresh-react.netlify.app/',linkGit:'https://github.com/lazminutes/TerraFresh',rincian:'Create a fruit buying and selling website (Group Project) using React js',},
+
+        {image:'dw', title:'Portofolio',linkWeb:'https://nandohtml.netlify.app/',linkGit:'https://github.com/Nandito06/Technical-Project-Assignment-1',rincian:'this is my first project which is making a portfolio using HTML and CSS ',},
+        {image:'dw', title:'Movie-App',linkWeb:'https://nando-movie.netlify.app/',linkGit:'https://github.com/Nandito06/TA-3',rincian:'Create a Movie app using API to receive data',},
+        {image:'dw', title:'Portofolio-V2',linkWeb:'https://portofolio-ku-09.netlify.app/',linkGit:'https://github.com/Nandito06/TA-4',rincian:'Update my Portofolio using React Js',},
+
+    ];
+    const renderProject=(card,index)=>{
+        return(
+            <div className='col-md-4'>
+            <div className=' todo'key={index}>
+                <div className='lineproject'></div>
+                <div className='nameProject'>
+                <div className='projekku d-flex'>
+                    <h2 className='title-projk'>{card.title}</h2>
+
+                    <div className='linkprojek'>
+                    <a className=''  href={card.linkWeb} target='_blank'>
+               <i class="fa-sharp fa-solid fa-circle-arrow-up linkweb  link-page-todo"></i></a>
+               <a href={card.linkGit} target='_blank'>
+               <i class="fa-brands fa-github git todogit link-page-todos"></i></a>
+               </div>
+
+               </div>
+               <p className="rinci-project">{card.rincian} </p>
+               <img src={card.image} alt="" className='imgprojek ' /> 
+                </div>
+                </div>
+           </div>
+        )
+    }
+
+
+
+
     return (
         <div className='container-fluid Project'id='PROJECT'>
-            <div className='row'  >
-                <div className='col-md-4'     >
-                    <p  className='naugthy-project' >{contex.lang === "en" ? "Project!" : "Projek!"}</p>
+            <div className=''  >
+                <div className=''  >
+                   
                     <div className='Title-skill' >
                         <h1 className='Skill-intro' data-aos="fade-up">{contex.lang === "en" ? "Latest" : "Projek"}</h1>
                         <h1 className='Skill-intro'data-aos="fade-up"><span>{contex.lang === "en" ? "Project" : "Terbaru"}</span> </h1>
                     </div>
-                    
-                    <div data-aos="fade-up" className='Projek1' >
-                    <div className='nameProject'>
-                    <div className='projekku d-flex'>
-                        <h2 className='title-projk'data-aos="fade-up">BMI-Calculator</h2>
-                        <a className='link' href="https://nando-bmi.netlify.app" target='_blank'data-aos="fade-up">
-                   <i class="fa-sharp fa-solid fa-circle-arrow-up link-page"></i>
-                   </a>
-                   </div>
-                   <p className="rinci-project"data-aos="fade-up">{contex.lang === "en" ? "Make BMI Count Using HTML,CSS,JS" : "Membuat BMI Calculator menggunakan HTML,CSS,JS"} </p>
-                   <img src={BMI} alt="" className='imgprojek' /> 
-                    </div>
-                    </div>
+                    <div >
+                       <div className='d-flex  flex-wrap'>{cardProject.map(renderProject)}</div> 
+                        </div>
 
                 </div>
+               
                 
-                <div className='col-md-4 todo' data-aos="fade-up" >
-                <div className=' todo'>
-                    <div className='lineproject'data-aos="fade-up"></div>
-                    <div className='nameProject'>
-                    <div className='projekku d-flex'>
-                        <h2 className='title-projk'data-aos="fade-up">ToDo-List</h2>
-                        <a className='link' href="https://todo-list-nando.netlify.app" target='_blank'data-aos="fade-up">
-                   <i class="fa-sharp fa-solid fa-circle-arrow-up link-page-todo"></i></a>
-                   </div>
-                   <p className="rinci-project"data-aos="fade-up">{contex.lang === "en" ? "Creating activity logs using React js" : "Mebuat Catatan aktivitas menggunakan React js"} </p>
-                   <img src={Todo} alt="" className='imgprojek ' /> 
-                    </div>
-                    </div>
-                </div>
-
-                <div className='col-md-4 terra' data-aos="fade-up"  >
-                <div className=' terra' >
-                    <div className='lineproject'data-aos="fade-up"></div>
-                    <div className='nameProject'>
-                    <div className='projekku d-flex'>
-                        <h2 className='title-projk'data-aos="fade-up">Terra-Fresh</h2>
-                        <a className='link' href="https://terra-fresh-react.netlify.app/" target='_blank'data-aos="fade-up">
-                   <i class="fa-sharp fa-solid fa-circle-arrow-up link-page-terra"></i></a>
-                   </div>
-                   <p className="rinci-project"data-aos="fade-up">{contex.lang === "en" ? "Create a fruit buying and selling website (Group Project) using React js" : "Membuat web jual beli buah (Group Project) menggunakan React js"} </p>
-                   <img src={Terra} alt="" className='imgprojek'data-aos="fade-up" /> 
-                    </div>
-                    
-                    </div>
-                    
-                </div>
-
             </div>
            
         </div>

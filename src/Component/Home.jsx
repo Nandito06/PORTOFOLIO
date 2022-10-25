@@ -12,7 +12,7 @@ function Home() {
             <div className='row ext-centetr'>
                 <div className='col-md-6 kolom1 '>
                     <div className='teksHome '>
-                        <p className='naugty-text'>{contex.lang === "en" ? "Hello!" : "Halo!"} </p>
+                       
                         <div className=''>
                             <h1 className='textHome'>{contex.lang === "en" ? " I'am" : "Saya"}</h1>
                             <h1 className='textHome '><span>Nandito</span> </h1>

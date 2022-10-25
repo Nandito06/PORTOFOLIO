@@ -15,7 +15,7 @@ Aos.init({});
             <div className='row all' >
                 <div data-aos="fade-up" className='col-md-6  '>
                     <div   className='col1About '>
-                <p  className='naugty-about '>{contex.lang === "en" ? "ABOUT!!!" : "TENTANG!!!"}</p>   
+                 
                   <h1 data-aos="fade-up"  className='text-about'>{contex.lang === "en" ? "About" : "Tentang"} <span>{contex.lang === "en" ? "Me" : "Saya"}</span> </h1>
                   <div className='d-flex aboutChil'>
                 <div data-aos="fade-up"  className='line'></div>
@@ -43,7 +43,7 @@ Aos.init({});
                          <div className='linkin d-flex'>
                            <h6 data-aos="fade-up"  className='explore'>{contex.lang === "en" ? "Explore" : "Jelajah"}</h6>
                            <a data-aos="fade-up"  href="https://data.sekolah-kita.net/sekolah/SD%20NEGERI%204%20MALUK_176391" target='_blank'>
-                           <i class="fa-sharp fa-solid fa-circle-arrow-up "></i></a>
+                           <i class="fa-sharp fa-solid fa-circle-arrow-up linkabot "></i></a>
                         </div>
 
 
@@ -59,7 +59,7 @@ Aos.init({});
                          <div className='linkin d-flex' data-aos="fade-up" >
                            <h6 data-aos="fade-up"  className='explore'>{contex.lang === "en" ? "Explore" : "Jelajah"}</h6>
                            <a data-aos="fade-up"  href="http://smpn1maluk.sch.id/" target='_blank'>
-                           <i class="fa-sharp fa-solid fa-circle-arrow-up " ></i></a>
+                           <i class="fa-sharp fa-solid fa-circle-arrow-up linkabot " ></i></a>
                         </div>
 
                     </div>
@@ -73,7 +73,7 @@ Aos.init({});
                          <div className='linkin d-flex' data-aos="fade-up" >
                            <h6 className='explore'>{contex.lang === "en" ? "Explore" : "Jelajah"}</h6>
                            <a href="https://www.smkn1maluk.sch.id" target='_blank'>
-                           <i class="fa-sharp fa-solid fa-circle-arrow-up "></i></a>
+                           <i class="fa-sharp fa-solid fa-circle-arrow-up linkabot "></i></a>
                         </div>
                     </div>
                 </div>

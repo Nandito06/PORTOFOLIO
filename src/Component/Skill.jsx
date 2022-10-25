@@ -15,8 +15,7 @@ function Skill() {
             <div className='container-fluid SKILL' id='Skill'>
                 <div className='row'>
                     <div  data-aos="fade-up" className='col-md-6 page-skill1'> 
-                    <p className='naugthy-skill'>{contex.lang === "en" ? "My Skill!!" : "Skill Ku!!"}</p>
-                       <div className='Title-skill'>   
+                                           <div className='Title-skill'>   
                         <h1 className='Skill-intro'data-aos="fade-up" >Skill &</h1>
                         <h1 className='Skill-intro'data-aos="fade-up" ><span>{contex.lang === "en" ? "Experince" : "Pengalaman"}</span> </h1>
                        </div>
