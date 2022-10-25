@@ -9,15 +9,15 @@ function Project() {
     const contex = React.useContext(AppContext)
 
     const cardProject=[
-        {image:{Todo}, title:'To Do - List',linkWeb:'https://todo-list-nando.netlify.app',linkGit:'https://github.com/Nandito06/To-Do-LIst-Project',rincian:'Creating activity logs using React js'},
+        {image:'https://raw.githubusercontent.com/Nandito06/PORTOFOLIO/master/src/img/Todo.png', title:'To Do - List',linkWeb:'https://todo-list-nando.netlify.app',linkGit:'https://github.com/Nandito06/To-Do-LIst-Project',rincian:'Creating activity logs using React js'},
 
-        {image:'dw', title:'BMI-Calculator',linkWeb:'https://nando-bmi.netlify.app',linkGit:'https://github.com/Nandito06/Tecnical-Project-2',rincian:'Make BMI Count Using HTML,CSS,JS '},
+        {image:'https://raw.githubusercontent.com/Nandito06/PORTOFOLIO/master/src/img/BMI.png', title:'BMI-Calculator',linkWeb:'https://nando-bmi.netlify.app',linkGit:'https://github.com/Nandito06/Tecnical-Project-2',rincian:'Make BMI Count Using HTML,CSS,JS '},
 
-        {image:'dw', title:'Terra-Fresh',linkWeb:'https://terra-fresh-react.netlify.app/',linkGit:'https://github.com/lazminutes/TerraFresh',rincian:'Create a fruit buying and selling website (Group Project) using React js',},
+        {image:'https://raw.githubusercontent.com/Nandito06/PORTOFOLIO/master/src/img/Terra.png', title:'Terra-Fresh',linkWeb:'https://terra-fresh-react.netlify.app/',linkGit:'https://github.com/lazminutes/TerraFresh',rincian:'Create a fruit buying and selling website (Group Project) using React js',},
 
-        {image:'dw', title:'Portofolio',linkWeb:'https://nandohtml.netlify.app/',linkGit:'https://github.com/Nandito06/Technical-Project-Assignment-1',rincian:'this is my first project which is making a portfolio using HTML and CSS ',},
-        {image:'dw', title:'Movie-App',linkWeb:'https://nando-movie.netlify.app/',linkGit:'https://github.com/Nandito06/TA-3',rincian:'Create a Movie app using API to receive data',},
-        {image:'dw', title:'Portofolio-V2',linkWeb:'https://portofolio-ku-09.netlify.app/',linkGit:'https://github.com/Nandito06/TA-4',rincian:'Update my Portofolio using React Js',},
+        {image:'https://raw.githubusercontent.com/Nandito06/PORTOFOLIO/master/src/img/porto1.png', title:'Portofolio',linkWeb:'https://nandohtml.netlify.app/',linkGit:'https://github.com/Nandito06/Technical-Project-Assignment-1',rincian:'this is my first project which is making a portfolio using HTML and CSS ',},
+        {image:'https://raw.githubusercontent.com/Nandito06/PORTOFOLIO/master/src/img/movieapp.png', title:'Movie-App',linkWeb:'https://nando-movie.netlify.app/',linkGit:'https://github.com/Nandito06/TA-3',rincian:'Create a Movie app using API to receive data',},
+        {image:'https://raw.githubusercontent.com/Nandito06/PORTOFOLIO/master/src/img/porto%20react.png', title:'Portofolio-V2',linkWeb:'https://portofolio-ku-09.netlify.app/',linkGit:'https://github.com/Nandito06/TA-4',rincian:'Update my Portofolio using React Js',},
 
     ];
     const renderProject=(card,index)=>{
