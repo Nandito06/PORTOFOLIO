@@ -30,8 +30,8 @@ function Navbar() {
         <HashLink to='#KONTAK' class="nav-link  fw-bold  py-1">{contex.lang === "en" ? "Contact" : "Kontak"} </HashLink >
          <button className='nav-link  py-1 navbar nav-masthead en'onClick={() => contex.onchangebahasa(contex.lang === "en" ? "id" : "en")} >{contex.lang === "en" ? "id" : "en"} </button>
   
-      </div> 
     </div>
+      </div> 
     
   
     

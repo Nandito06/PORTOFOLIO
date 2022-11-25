@@ -28,7 +28,7 @@ function Home() {
                     </div>
                     <div>
                         <div>
-                            <a href="https://drive.google.com/file/d/1ft7ues0VM2n_T0fibtPAfuYMrFqeNMPX/view?usp=sharing" target="_blank">
+                            <a href="https://drive.google.com/file/d/14XHo2CZMGyp5BPX619SZlYO6O9pSXDA8/view?usp=sharing" target="_blank">
                             <button className='btn-Costum'><i class="fa-regular fa-paper-plane send"></i>Dowload CV</button>
                             </a>
                            

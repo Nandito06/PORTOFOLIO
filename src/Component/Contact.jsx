@@ -19,7 +19,7 @@ function Contact() {
     const [error, setError] = useState(false)
 
 
-    const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$;/g
+
 
 
 
@@ -100,8 +100,10 @@ function Contact() {
                         value=''
 
                     >
+                        
                         {contex.lang === "en" ? "Send" : "Kirim"}
                     </button>
+                    
 
 
                 </div>
